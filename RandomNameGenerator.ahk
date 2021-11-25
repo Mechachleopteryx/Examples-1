@@ -93,9 +93,10 @@ RandomName(MinLength=5, MaxLength=0)
 	Sleep, 500
 	Clipboard = %rn%
 	Sleep, 500
-	MouseClick, right
-	return
-;;	Send, ^v
+;;	MouseClick, right ;; for a terminal
+;;	return
+	Send, ^v
+        return
  	
 
 
