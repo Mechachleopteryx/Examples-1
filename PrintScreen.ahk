@@ -147,15 +147,15 @@ Return
 ::mixolydian::ssh mechachleopteryx@192.168.2.81 ;linux lmms computer 2, bash, brew
 
 ;;  Laptops
-::mymac::ssh mecha@192.168.2.73 ;os/10 shell zsh, brew
-::mylaptop::ssh hesiod@192.168.2.55 ;windows
-::myoldlaptop::ssh tom@192.168.2.30 ;;; windows 10 Version 1709 
+::mymac::ssh mecha@ipaddress ;os/10 shell zsh, brew
+::mylaptop::ssh hesiod@ipaddress ;windows
+::myoldlaptop::ssh tom@ipaddress ;;; windows 10 Version 1709 
 ;; Smartphones
-::myphone::ssh u0_a330@192.168.2.72 -p 8022 ;linux ubuntu
-::myoldphone::ssh u0_a502@192.168.2.10 -p 8022 ;linux ubuntu
+::myphone::ssh u0_a330@ipaddress -p 8022 ;linux ubuntu
+::myoldphone::ssh u0_a502@ipaddress0 -p 8022 ;linux ubuntu
 
 ;; Tablet(s)
-::mytablet::ssh u0_a285@192.168.2.82 -p 8022
+::mytablet::ssh u0_a285@ipaddress2 -p 8022
 
 
 ;;#o::	; Win+P hotkey (changed it to o (oh) because win+p handles the projector)
